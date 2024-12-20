@@ -5,6 +5,6 @@ export const Route = createFileRoute("/")({
 });
 
 function Home() {
-  const link = linkOptions({ to: "/page-1" });
+  const link = linkOptions({ to: "/page-1/" });
   return <Link {...link}>Page 1</Link>;
 }
